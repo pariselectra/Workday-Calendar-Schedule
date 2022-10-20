@@ -120,7 +120,7 @@ console.log('save button', saveButton)
 
     console.log(time);
 
-if(time=0){
+if(time === 0){
 rows0.style.backgroundColor = "#77dd77";
 rows1.style.backgroundColor = "#77dd77";
 rows2.style.backgroundColor = "#77dd77";
@@ -131,7 +131,7 @@ rows6.style.backgroundColor = "#77dd77";
 rows7.style.backgroundColor = "#77dd77";
 rows8.style.backgroundColor = "#77dd77";
 }
-else if(time=1){
+else if(time ===1){
     rows0.style.backgroundColor = "#77dd77";
     rows1.style.backgroundColor = "#77dd77";
     rows2.style.backgroundColor = "#77dd77";
@@ -142,7 +142,7 @@ else if(time=1){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time=2){
+else if(time===2){
 rows0.style.backgroundColor = "#77dd77";
 rows1.style.backgroundColor = "#77dd77";
 rows2.style.backgroundColor = "#77dd77";
@@ -153,7 +153,7 @@ rows6.style.backgroundColor = "#77dd77";
 rows7.style.backgroundColor = "#77dd77";
 rows8.style.backgroundColor = "#77dd77";
 }
-else if(time=3){
+else if(time===3){
     rows0.style.backgroundColor = "#77dd77";
     rows1.style.backgroundColor = "#77dd77";
     rows2.style.backgroundColor = "#77dd77";
@@ -164,7 +164,7 @@ else if(time=3){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time=4){
+else if(time===4){
 rows0.style.backgroundColor = "#77dd77";
 rows1.style.backgroundColor = "#77dd77";
 rows2.style.backgroundColor = "#77dd77";
@@ -175,7 +175,7 @@ rows6.style.backgroundColor = "#77dd77";
 rows7.style.backgroundColor = "#77dd77";
 rows8.style.backgroundColor = "#77dd77";
 }
-else if(time=5){
+else if(time===5){
     rows0.style.backgroundColor = "#77dd77";
     rows1.style.backgroundColor = "#77dd77";
     rows2.style.backgroundColor = "#77dd77";
@@ -186,7 +186,7 @@ else if(time=5){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time=6){
+else if(time===6){
 rows0.style.backgroundColor = "#77dd77";
 rows1.style.backgroundColor = "#77dd77";
 rows2.style.backgroundColor = "#77dd77";
@@ -197,7 +197,7 @@ rows6.style.backgroundColor = "#77dd77";
 rows7.style.backgroundColor = "#77dd77";
 rows8.style.backgroundColor = "#77dd77";
 }
-else if(time=7){
+else if(time===7){
     rows0.style.backgroundColor = "#77dd77";
     rows1.style.backgroundColor = "#77dd77";
     rows2.style.backgroundColor = "#77dd77";
@@ -208,7 +208,7 @@ else if(time=7){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time=8){
+else if(time===8){
 rows0.style.backgroundColor = "#77dd77";
 rows1.style.backgroundColor = "#77dd77";
 rows2.style.backgroundColor = "#77dd77";
@@ -219,7 +219,7 @@ rows6.style.backgroundColor = "#77dd77";
 rows7.style.backgroundColor = "#77dd77";
 rows8.style.backgroundColor = "#77dd77";
 }
-else if(time = 9){
+else if(time === 9){
     rows0.style.backgroundColor = "#ff6961";
     rows1.style.backgroundColor = "#77dd77";
     rows2.style.backgroundColor = "#77dd77";
@@ -231,8 +231,8 @@ else if(time = 9){
     rows8.style.backgroundColor = "#77dd77";
     }
 
-else if(time = 10){
-    rows0.style.backgroundColor = "d3d3d3";
+else if(time === 10){
+    rows0.style.backgroundColor = "#d3d3d3";
     rows1.style.backgroundColor = "#ff6961";;
     rows2.style.backgroundColor = "#77dd77";
     rows3.style.backgroundColor = "#77dd77";
@@ -242,19 +242,8 @@ else if(time = 10){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time = 11){
-    rows0.style.backgroundColor = "d3d3d3";
-    rows1.style.backgroundColor = "#ff6961";;
-    rows2.style.backgroundColor = "#77dd77";
-    rows3.style.backgroundColor = "#77dd77";
-    rows4.style.backgroundColor = "#77dd77";
-    rows5.style.backgroundColor = "#77dd77";
-    rows6.style.backgroundColor = "#77dd77";
-    rows7.style.backgroundColor = "#77dd77";
-    rows8.style.backgroundColor = "#77dd77";
-    }
-else if(time = 12){
-    rows0.style.backgroundColor = "d3d3d3";
+else if(time === 11){
+    rows0.style.backgroundColor = "#d3d3d3";
     rows1.style.backgroundColor = "#d3d3d3";;
     rows2.style.backgroundColor = "#ff6961";
     rows3.style.backgroundColor = "#77dd77";
@@ -264,8 +253,8 @@ else if(time = 12){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time = 13){
-    rows0.style.backgroundColor = "d3d3d3";
+else if(time === 12){
+    rows0.style.backgroundColor = "#d3d3d3";
     rows1.style.backgroundColor = "#d3d3d3";;
     rows2.style.backgroundColor = "#d3d3d3";
     rows3.style.backgroundColor = "#ff6961";
@@ -275,8 +264,8 @@ else if(time = 13){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time = 14){
-    rows0.style.backgroundColor = "d3d3d3";
+else if(time === 13){
+    rows0.style.backgroundColor = "#d3d3d3";
     rows1.style.backgroundColor = "#d3d3d3";;
     rows2.style.backgroundColor = "#d3d3d3";
     rows3.style.backgroundColor = "#d3d3d3";
@@ -286,8 +275,8 @@ else if(time = 14){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time = 15){
-    rows0.style.backgroundColor = "d3d3d3";
+else if(time === 14){
+    rows0.style.backgroundColor = "#d3d3d3";
     rows1.style.backgroundColor = "#d3d3d3";;
     rows2.style.backgroundColor = "#d3d3d3";
     rows3.style.backgroundColor = "#d3d3d3";
@@ -297,8 +286,8 @@ else if(time = 15){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time = 16){
-    rows0.style.backgroundColor = "d3d3d3";
+else if(time === 15){
+    rows0.style.backgroundColor = "#d3d3d3";
     rows1.style.backgroundColor = "#d3d3d3";;
     rows2.style.backgroundColor = "#d3d3d3";
     rows3.style.backgroundColor = "#d3d3d3";
@@ -308,8 +297,8 @@ else if(time = 16){
     rows7.style.backgroundColor = "#77dd77";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time = 17){
-    rows0.style.backgroundColor = "d3d3d3";
+else if(time === 16){
+    rows0.style.backgroundColor = "#d3d3d3";
     rows1.style.backgroundColor = "#d3d3d3";;
     rows2.style.backgroundColor = "#d3d3d3";
     rows3.style.backgroundColor = "#d3d3d3";
@@ -319,8 +308,8 @@ else if(time = 17){
     rows7.style.backgroundColor = "#ff6961";
     rows8.style.backgroundColor = "#77dd77";
     }
-else if(time = 18){
-    rows0.style.backgroundColor = "d3d3d3";
+else if(time === 17){
+    rows0.style.backgroundColor = "#d3d3d3";
     rows1.style.backgroundColor = "#d3d3d3";;
     rows2.style.backgroundColor = "#d3d3d3";
     rows3.style.backgroundColor = "#d3d3d3";
@@ -331,7 +320,7 @@ else if(time = 18){
     rows8.style.backgroundColor = "#ff6961";
     }
 else{
-    rows0.style.backgroundColor = "d3d3d3";
+    rows0.style.backgroundColor = "#d3d3d3";
     rows1.style.backgroundColor = "#d3d3d3";;
     rows2.style.backgroundColor = "#d3d3d3";
     rows3.style.backgroundColor = "#d3d3d3";

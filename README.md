@@ -33,4 +33,4 @@ This challenge was created while in attendance at the University of Texas at Aus
 
 ## License
 MIT License
-https://github.com/pariselectra/Workday-Calendar-Schedule/blob/main/LICENSE
+https://github.com/pariselectra/Workday-Calendar-Schedule/blob/main/LICENSE .
