@@ -64,8 +64,6 @@ function showSchedule(){
     
 
         }
-
-
     
        
         colHr.append(businessHrs);
